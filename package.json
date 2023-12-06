@@ -1,0 +1,22 @@
+{
+  "name": "advent_of_code_2023",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "day_1": "ts-node day_1/calibration_data.ts",
+    "day_4": "ts-node day_4/cards.ts",
+    "show_config": "ts-node --showConfig"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.3",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
